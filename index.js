@@ -51,7 +51,7 @@ const voiceEvent = async (req, res, next) => {
     }
     res.json({});
   } catch (err) {
-    logger.error("Error on voiceEvent function");
+    logger.error("Error on voiceEvent function", err);
   }
 };
 
