@@ -12,7 +12,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "conversation-api-function": "0.0.7",
-    "sleep": "^6.3.0"
+    "conversation-api-function": "0.0.13"
   }
 }
