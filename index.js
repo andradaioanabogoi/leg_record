@@ -43,7 +43,7 @@ const voiceEvent = async (req, res, next) => {
       //save leg id
       //when memeber:media
       const { uuid } = req.body;
-      //   await sleep(1000);
+      await sleep(1000);
       const recordingData = await csClient({
         url: `${DATACENTER}/v0.3/legs/${uuid}/recording`,
         method: "post",
