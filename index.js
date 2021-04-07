@@ -40,8 +40,6 @@ const voiceEvent = async (req, res, next) => {
   try {
     logger.info("voiceEvent", req.body, req.query);
     if (req.body.status === "answered" && req.body.direction === "outbound") {
-      //save leg id
-      //when memeber:media
       const { uuid } = req.body;
       await sleep(1000);
       const recordingData = await csClient({
