@@ -55,7 +55,7 @@ const voiceEvent = async (req, res, next) => {
 
 const voiceAnswer = async (req, res, next) => {
   const { logger, csClient } = req.nexmo;
-  logger.info("req", { req_body: req.body });
+  logger.info("reqqq", { req_body: req.body });
   try {
     return res.json([
       //   {
